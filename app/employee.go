@@ -18,14 +18,6 @@ type person struct {
 	contact   ContactInfo
 }
 
-// func emp() {
-// 	midhun := Employee{
-// 		firstName: "midhun",
-// 		lastName:  "r",
-// 		empId:     2406,
-// 		contact: contactInfo{
-// 			"midhun@gmail.com",
-// 			"2406",
-// 		},
-// 	}
-// }
+func (e *Employee) UpdateEmploye(firstName string) {
+	e.FirstName = firstName
+}
